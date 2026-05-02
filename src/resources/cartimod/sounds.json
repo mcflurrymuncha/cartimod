@@ -1,0 +1,11 @@
+{
+  "music_disc.pissy_pamper": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "cartimod:records/Pissy Pamper - Votabias (youtube)",
+        "stream": true
+      }
+    ]
+  }
+}
