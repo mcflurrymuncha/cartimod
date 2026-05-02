@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "cartimod",
+  "version": "1.0.0",
+  "name": "Pissy Pamper Disc",
+  "description": "Adds the unreleased Playboi Carti song \"Pissy Pamper\" as a music disc.",
+  "authors": [
+    "vexi"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/fabricmc/fabric-example-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/cartimod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.carti.CartiMod"
+    ]
+  },
+  "mixins": [
+    "cartimod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
