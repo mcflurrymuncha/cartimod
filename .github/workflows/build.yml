@@ -11,7 +11,7 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
-          java-version: '17' # Use '21' if you are targeting Minecraft 1.20.5 or newer
+          java-version: '21' # Use '21' if you are targeting Minecraft 1.20.5 or newer
           distribution: 'temurin'
 
       - name: Make Gradle Executable
